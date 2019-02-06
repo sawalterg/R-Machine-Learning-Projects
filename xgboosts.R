@@ -68,5 +68,5 @@ cv <- lapply(folds, function(x) { # x is a local variable
 } ) 
 
 accuracy = mean(as.numeric(cv))
-# Pretty good without parameter tuning like Kfold cross validation
+
 
